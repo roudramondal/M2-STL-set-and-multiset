@@ -24,11 +24,14 @@ using namespace std;
 void solve() {
     // code here 
     set<int>s;
-    s.insert(1);
+   s.insert(1);
     s.insert(-2);
+    s.insert(-4);
+    s.insert(-1);
+    s.insert(4);
     for (auto &x:s)
     {
-        cout<<x<<" ";
+        cout<<x<<" ";// always work sorting
     }
     cout<<nl;
 }
